@@ -11,7 +11,7 @@ button= st.sidebar.button('Music', key=None, help=None, on_click=None, args=None
 
 # if click on music button is clicked show audio controls for playback
 if button:
-     st.sidebar.audio(r'C:\Users\Asus\Projects\IPL Ananlysis\dataset\audio\IPL-theme-RMX.wav', format="audio/wav", start_time=0)
+     st.sidebar.audio(r'IPL-theme-RMX.wav', format="audio/wav", start_time=0)
 
 
 # Sidebar theme image
